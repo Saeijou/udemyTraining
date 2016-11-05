@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
-import "github.com/Saeijou/udemyTraining/03_package/stringutil"
+import (
+	"fmt"
+	"github.com/Saeijou/udemyTraining/03_package/stringutil"
+)
 
 func main() {
-	fmt.Println(strinutil.MyName)
+	fmt.Println(stringutil.MyName)
+	fmt.Println(stringutil.Reverse("Stephan"))
 }
